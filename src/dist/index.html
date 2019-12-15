@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/customizations.css">
   <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
 </head>
+
 <body>
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
@@ -25,15 +26,15 @@
     <div class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <a href="https://github.com/mmacneil" class="icon is-large has-text-light">
-            <i class="fab fa-2x fa-github"></i>
+          <a href="https://stackoverflow.com/users/4230357/kewin-remy" class="icon is-large has-text-light">
+            <i class="fab fa-2x fa-stack-overflow"></i>
           </a>
         </div>
         <div class="navbar-item">
-          <a href="https://fullstackmark.com" class="icon is-large has-text-light">
-            <i class="fas fa-2x fa-globe"></i>
+          <a href="https://github.com/kewinremy" class="icon is-large has-text-light">
+            <i class="fab fa-2x fa-github"></i>
           </a>
-        </div>
+        </div>   
       </div>
     </div>
   </nav>
@@ -56,14 +57,22 @@
             <h2 class="subtitle">
               Zürich - Switzerland
             </h2>
-            <p>
-                <a href="contact" class="icon has-text-light">
-                  <i class="fas fa-file-word"></i><strong>Contact</strong>
-                </a>
-              <a href="docs/resume.txt" class="icon has-text-light">
-                <i class="fas fa-file-word"></i> <strong>Resume</strong>
-              </a>
-            </p>
+            <div class="columns">
+              <div class="column is-1 is-offset-5">
+                <p>
+                  <a href="contact" class="icon has-text-light">
+                    <i class="fas fa-address-book"></i><strong>Contact</strong>
+                  </a>
+                </p>
+              </div>
+              <div class="column is-1">
+                <p>
+                  <a href="docs/resume.txt" class="icon has-text-light">
+                    <i class="fas fa-file-pdf"></i> <strong>Resume</strong>
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -72,7 +81,7 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">Statement</h1>
+      <h1 class="title">About</h1>
       <hr />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -152,73 +161,6 @@
     </div>
   </section>
 
-  <!-- <section class="section">
-    <div class="container">
-      <h1 class="title">Projects</h1>
-      <hr />
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-          <div class="tile">
-            <div class="tile is-parent is-vertical">
-              <article class="tile is-child notification">
-                <p class="title">Project title</p>
-                <figure class="image is-3by2">
-                  <img class="modal-trigger" data-target="project-1-modal" src="img/project-1-cover.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Project title</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-2-modal" src="img/project-2-cover.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Project title</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-3-modal" src="img/project-3-cover.png">
-                </figure>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-          <div class="tile">
-            <div class="tile is-parent is-vertical">
-              <article class="tile is-child notification">
-                <p class="title">Project title</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-4-modal" src="img/project-4-cover.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Project title</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-5-modal" src="img/project-5-cover.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Project title</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-6-modal" src="img/project-6-cover.png">
-                </figure>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <section class="section">
     <div class="container">
       <h1 class="title">Education</h1>
@@ -261,6 +203,12 @@
   </section>
 
   <section class="section">
+    <div class="container" id="skills">
+
+    </div>
+  </section>
+
+  <section class="section">
     <div class="container" id="contact">
       <h1 class="title">Contact</h1>
       <hr />
@@ -273,14 +221,6 @@
             <p class="heading"><a href="https://github.com/mmacneil">github.com/mmacneil</a></p>
           </div>
         </div>
-        <!-- <div class="level-item has-text-centered">
-          <div>
-            <a href="https://fullstackmark.com" class="icon is-large">
-              <i class="fas fa-2x fa-globe"></i>
-            </a>
-            <p class="heading"><a href="https://fullstackmark.com">fullstackmark.com</a></p>
-          </div>
-        </div> -->
         <div class="level-item has-text-centered">
           <div>
             <a href="mailto:markmacneil@gmail.com" class="icon is-large">
