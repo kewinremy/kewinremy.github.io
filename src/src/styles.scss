@@ -20,7 +20,8 @@ $margin-default: map-get($spaces, "2") map-get($spaces, "0");
 
 // Update some of Bulma's component & color variables
 $footer-padding: 3rem 1.5rem;
-$link: hsl(171, 100%, 41%);
+$link: hsl(160, 4%, 14%);
+$link-hover: hsl(216, 10%, 60%);
 
 // Custom Styles
 .card-gap {margin-top:1.75rem}

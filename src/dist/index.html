@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="css/customizations.css">
   <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
 </head>
-
 <body>
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
@@ -19,7 +18,7 @@
         </a>
       </div> -->
       <div class="navbar-item" id="brand">
-        <h1>SOFTWARE ENGINEER</h1>
+        <h1>KEWIN REMY</h1>
       </div>
     </div>
     <div class="navbar-menu">
@@ -50,8 +49,8 @@
         </div>
         <div class="columns has-text-centered">
           <div class="column">
-            <h1 class="title is-1">
-              Kewin Rémy
+            <h1 class="title is-2">
+              Software Engineering
             </h1>
             <h2 class="subtitle">
               .NET and everything around
@@ -86,7 +85,7 @@
         and starts to understand Züri Dütsch. Indeed, I come from Porrentruy, a beautiful town in the canton of 
         Jura but also lived in Lausanne, Hong Kong and Buenos Aires. Before discovering my real passion 
         ‘technology’, I studied political science and economics at the university. Feel free to contact me, I am 
-        very curious to learn about your story too.</p>
+        very curious to learn about your story.</p>
     </div>
   </section>
   <section class="section">
@@ -320,12 +319,16 @@
   </section>
   <footer class="footer">
     <div class="content has-text-centered">
-      <p>
-        <strong>Zürich - Switzerland</strong></a>
+      <p id="footerText">
       </p>
     </div>
   </footer>
   <script src="js/bundle.js"></script>
+  <script>
+    var footerText = document.getElementById('footerText');
+    footerText.innerHTML = 'Zürich - Switzerland - ' + new Date().getFullYear();
+    footerText.style.fontWeight = 'bold';
+ </script>
 </body>
 
 </html>
