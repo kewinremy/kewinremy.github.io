@@ -5,6 +5,11 @@ require('flickity-imagesloaded');
 
 var $carousels = new Array();
 
+
+var footerText = document.getElementById('footerText');
+    footerText.innerHTML = 'Zürich - Switzerland - ' + new Date().getFullYear();
+    footerText.style.fontWeight = 'bold';
+
 // Modals
 
 var rootEl = document.documentElement;
