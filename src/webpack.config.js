@@ -39,8 +39,11 @@ module.exports = {
     }),
     new FileManagerPlugin({
       onEnd:{
-        move: [
-          { source: 'dist', destination: 'test' }
+        copy: [
+          { source: 'dist', destination: '/Users/kewinremy/Repos/kewinremy.github.io/' }
+        ], 
+        delete: [
+          'dist'
         ]
       }
     })
