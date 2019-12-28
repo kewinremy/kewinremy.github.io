@@ -41,9 +41,6 @@ module.exports = {
       onEnd:{
         copy: [
           { source: 'dist', destination: '/Users/kewinremy/Repos/kewinremy.github.io/' }
-        ], 
-        delete: [
-          'dist'
         ]
       }
     })
